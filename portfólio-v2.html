@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Johann Bezerra</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem; 
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+header#hero {
+    background: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: #ffffff 3px solid;
+}
+
+header#hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header#hero h2 {
+    margin-top: 5px;
+    font-size: 1.5em;
+    color: #ccc;
+}
+
+header#hero .objective {
+    font-style: italic;
+    margin-top: 10px;
+    color: #bbb;
+}
+
+header#hero .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+header#hero .social-links a:hover {
+    color: #ffffff;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #000000;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+}
+
+nav .container ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav .container ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav .container ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .container ul li a:hover {
+    color: #0779e4;
+}
+
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px #ddd solid;
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #d4d4d4;
+}
+
+
+#about p, #education .education-item, #skills .skills-category, #projects .project-item, #experience .experience-item, #contact p {
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+}
+
+#education h3, #projects h3, #experience h3 {
+    color: #000000;
+    margin-top: 0;
+}
+
+#skills ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .social-links-footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-links-footer a:hover {
+    color: #000000;
+}
+
+footer a {
+    color: #0084ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media(max-width: 768px){
+    .container {
+        width: 90%;
+    }
+
+    header#hero h1 {
+        font-size: 2em;
+    }
+
+    header#hero h2 {
+        font-size: 1.2em;
+    }
+
+    nav .container ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#education">Formação</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <header id="hero">
+        <div class="container">
+            <img src="foto-portfólio-v2.jpg" alt="Johann Bezerra de Andrade" class="profile-image">
+            <h1>Johann Bezerra de Andrade</h1>
+
+            <p class="objective">Em formação para atuar como Desenvolvedor de Software com ênfase em IA e Machine Learning</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/johann-bezerra" target="_blank">
+                    <i class="fab fa-linkedin" style="margin: 1px;"></i> LinkedIn
+                </a>
+                <a href="https://github.com/johann0301" target="_blank">
+                    <i class ="fab fa-github" style="margin: 1px;"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    
+
+    
+    <section id="about" class="container">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Meu nome é Johann Bezerra, sou estudante de Ciências da Computação com experiência em Python. Tenho uma paixão por programação e desenvolvimento de projetos. Ao longo da minha carreira, quero desenvolver habilidades em full stack e trabalhar em projetos desafiadores, sempre buscando a excelência em tudo que faço.</p>
+    </section>
+
+    <section id="education" class="container">
+        <h2>Formação Acadêmica</h2>
+        <div class="education-item">
+            <h3>UNIESP</h3>
+            <p><strong>Curso:</strong> Ciência da Computação</p>
+            <p><strong>Período/Ano de Início:</strong> 01/2025</p>
+            <p><strong>Previsão de Conclusão:</strong> 12/2028</p>
+            <!--<p><em>Mencione disciplinas relevantes aqui.</em></p>-->
+        </div>
+       
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Habilidades Técnicas</h2>
+        <div class="skills-category">
+            <h3>Linguagens de Programação</h3>
+            <ul>
+                <li>Python</li>
+                <li>Html</li>
+                <li>Css</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>PHP</li>
+            </ul>
+        </div>
+        <div class="skills-category">
+            <h3>Ferramentas</h3>
+            <ul>
+                <li>Git e Github</li>
+                <li>VsCode</li>
+                <li>Jupyter Notebook</li>
+                <li>Google Colab</li>
+                <li>Figma</li>
+                <li>MySQL</li>
+
+            </ul>
+        </div>
+        <div class="skills-category">
+            <h3>Frameworks/Bibliotecas</h3>
+            <ul>
+                <li>Pandas - Nível Básico</li>
+            </ul>
+        </div>
+        <div class="skills-category">
+            <h3>Outras Habilidades</h3>
+            <ul>
+                <li>Inglês - Certificado C1(University of Cambridge)</li>	
+                <li>Espanhol - Nível Intermediário</li>
+                <li>Comunicação</li>
+                <li>Trabalho em Equipe</li>
+                <li>Resolução de Problemas</li>
+                <li>Aprendizado Rápido</li>
+                <li>Adaptabilidade</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projetos</h2>
+        <div class="project-item">
+            <h3>Triagem Médica com IA</h3>
+            <p>Projeto voltado para triagem médica com ajuda da IA, com o intuito de encaminhar os pacientes para o profissional correto de acordo com os sintomas e histórico médico.</p>
+            <p><strong>Tecnologias:</strong> Python, MySQL, HTML5, CSS, IA</p>
+            <p><a href="https://github.com/johann0301/triagem-medica-com-ia" target="_blank">Link para o Repositório GitHub</a></p>
+        </div>
+        <div class="project-item">
+            <h3>[Nome do Projeto 2]</h3>
+            <p>[Breve descrição do projeto, objetivo e funcionalidade.]</p>
+            <p><strong>Tecnologias:</strong> [Liste as tecnologias usadas]</p>
+            <p><a href="#" target="_blank">Link para o Repositório GitHub</a></p>
+        </div>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Experiências e Atividades</h2>
+        <div class="experience-item">
+            <h3> Minicurso — Amazing Data Intelligence: do Zero ao Analytics Engineering   </h3>
+            <p><strong>Evento:</strong> Future Expo Summer </p>
+            <p><strong>Período:</strong> 17/05/25</p>
+            <p>Participei de um minicurso introdutório sobre engenharia de dados e analytics, no qual tive um primeiro contato com conceitos como pipelines de dados, ETL/ELT e visualização analítica. O curso apresentou de forma geral o papel do analytics engineer e as principais etapas do fluxo de dados até a geração de insights.</p>
+            <p>Aprendizados:</p>
+            <p>-Conceito básico de engenharia de dados aplicada à análise</p>
+            <p>-Noções iniciais sobre ferramentas como dbt, Power BI e Airbyte</p>
+            <p>-Visão geral sobre a organização e tratamento de dados para tomada de decisão</p>
+        </div>
+        <div class="experience-item">
+            <h3>Minicurso - Análise de dados com Python</h3>
+            <p><strong>Organização:</strong> UNIESP</p>
+            <p><strong>Período:</strong> mai/2025</p>
+            <p>Participei de um minicurso introdutório focado em análise de dados utilizando Python. Durante o curso, tive contato com bibliotecas essenciais do ecossistema de ciência de dados e entendi os primeiros passos no processo de limpeza, visualização e interpretação de dados.</p>
+            <p>Aprendizados: 
+            <p>-Manipulação de dados com Pandas</p> 
+            <p>-Visualizações básicas com Matplotlib e Seaborn</p> 
+            <p>-Introdução ao fluxo de análise: coleta, tratamento e interpretação de dado</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contato</h2>
+        <p>Entre em contato!</p>
+        <p><i class="fas fa-envelope" style="margin: 1rem;"></i><strong>Email:</strong> <a href="#"> johann.bezerra27@gmail.com</a></p>
+        <p><i class="fab fa-whatsapp" style="margin: 1rem;"></i><strong>WhatsApp:</strong> <a href="#" target="_blank">(83) 99387-7108</a></p>
+
+        <!--<form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </form>-->
+    </section>
+
+    <footer>
+        <div class="container">
+            <!-- <p>&copy; <span id="current-year"></span> </p>
+            <div class="social-links-footer">
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">GitHub</a>
+            </div> -->
+            <p><a href="#" target="_blank">Ver o código deste portfólio no GitHub</a></p>
+        </div>
+    </footer>
+</body>
+</html>
+
+

@@ -1,0 +1,42 @@
+ALUNO: Johann Bezerra de Andrade
+
+DESCRIÇÃO DA PÁGINA:
+ 
+A proposta da minha página pessoal é criar um espaço onde eu possa me apresentar de forma profissional, clara e visualmente impactante como desenvolvedor Full-stack com foco em Inteligência Artificial. Quero que ela reflita não só minhas habilidades técnicas, mas também minha personalidade, meu gosto por tecnologia e minha trajetória como estudante de Ciência da Computação na UNIESP.
+
+A estrutura será dividida em seções bem definidas: uma introdução com minha headline, uma área sobre mim, uma seção para projetos (com foco em IA e desenvolvimento web), outra para minhas habilidades técnicas, links para redes sociais e um botão de contato direto. O layout e o design serão feitos no Figma antes de eu codar tudo do zero.
+
+PÚBLICO-ALVO:
+
+Minha página é voltada principalmente para:
+
+Recrutadores e empresas de tecnologia que buscam talentos com perfil técnico e criativo;
+
+Profissionais e colegas da área de TI, que queiram conhecer meus projetos e trocar ideias;
+
+Professores e mentores, que acompanham minha evolução acadêmica e prática;
+
+Pessoas interessadas em soluções que envolvam inteligência artificial aplicada ao cotidiano.
+
+
+REQUISITOS DE USABILIDADE E ACESSIBILIDADE:
+
+Usabilidade:
+Interface limpa, intuitiva e rápida;
+
+Design responsivo (adaptável a desktop, tablet e celular);
+
+Navegação simples e fluida com rolagem suave;
+
+Destaque para botões de ação importantes, como contato, currículo e GitHub;
+
+Animações leves e feedback visual nas interações.
+
+Acessibilidade:
+Bom contraste entre cores (evitando tons que dificultem a leitura);
+
+Textos alternativos em imagens;
+
+Fontes legíveis e consistentes;
+
+Evitar excesso de informações visuais para não sobrecarregar.
